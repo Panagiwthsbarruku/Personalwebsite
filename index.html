@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+HU:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>My Personal Portfolio | FD</title>
+</head>
+<body>
+    <div class="side-menu">
+         <div class="logo">
+             <img src="MyLogo.jpg" width="50px" height="50px" alt="logo">
+            <h2>Panos</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home"><i class="ri-home-5-line"></i></a>Home</li>
+                <li><a href="#skills"><i class="ri-code-s-slash-line"></i></a>skills</li>
+                <li><a href="#contact"><i class="ri-contacts-line"></i></a>Contact</li>
+            </ul>
+        </nav>
+        <footer>
+            <i class="ri-settings-line"></i>
+        </footer>
+    </div>
+
+    <div class="theme-toggle">
+        <button id="theme-toggle-btn">
+            <i class="fa-solid fa-moon"></i>
+            Dark Mode</button>
+    </div>
+    <div class="main-content">
+        <section class="home" id="home">
+            <div class="content">
+                <h1>Hey! I'm <span>panos</span></h1>
+                <p>I am a self-taught web developer and game designer.</p>
+                <a href="#contact">Επικοινωνία</a>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <div class="title">
+                <h2>Δεξιότητες</h2>
+            </div>
+            <div class="content">
+                <div class="skills-box">
+                    <div class="skills-item">
+                        <i class="ri-html5-fill"></i>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="skills-item">
+                        <i class="ri-css3-fill"></i>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="skills-item">
+                        <i class="ri-javascript-fill"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="skills-item">
+                        <i class="ri-reactjs-line"></i>
+                        <h3>React</h3>
+                    </div>
+                    <div class="skills-item">
+                        <i class="ri-nodejs-fill"></i>
+                        <h3>Node.js</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="projects" id="projects">
+            <div class="title">
+                <h2>Projects</h2>
+            </div>
+            <div class="content">
+                <div class="project-item">
+                    <h3>Portfolio Website</h3>
+                    <p>A personal portfolio website showcasing my skills and projects.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+                <div class="project-item">
+                    <h3>Game Design</h3>
+                    <p>A 2D platformer game built using Unity and C#.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+                <div class="project-item">
+                    <h3>Weather App</h3>
+                    <p>A weather application using JavaScript and OpenWeather API.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="title">
+                <h2>About Me</h2>
+            </div>
+            <div class="content">
+                <div class="about-text">
+                    <p>
+                        Hello! I'm Panos, a passionate web developer and game designer with a love for creating interactive and visually appealing experiences. I enjoy learning new technologies and constantly improving my skills to deliver high-quality projects.
+                    </p>
+                    <p>
+                        When I'm not coding, you can find me exploring new games, reading about the latest tech trends, or experimenting with creative designs.
+                    </p>
+                </div>
+                <div class="about-image">
+                    <img src="MyLogo.jpg" alt="About Me" width="50">
+                </div>
+            </div>
+        </section>
+        <footer class="main-footer">
+            <div class="footer-content">
+            <p>&copy; 2023 Panos. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com" target="_blank"><i class="ri-github-fill"></i></a>
+                <a href="https://linkedin.com" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="ri-twitter-fill"></i></a>
+            </div>
+            </div>
+        </footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
